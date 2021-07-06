@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+   * Drug App
+   * https://github.com/quintuslabs/GroceryStore
+   * Created on 18-Feb-2019.
+   * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
+   -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".activity.WelcomeActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true"
+     android:layout_margin="@dimen/margin_20dp">
+     <LinearLayout
+         android:id="@+id/SliderDots"
+         android:layout_width="200dp"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_centerVertical="true"/>
+     <com.quintus.labs.drugstore.customfonts.TextViewRegular
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Skip"
+         android:textColor="@color/colorPrimaryDark"
+         android:textSize="18dp"
+         android:textStyle="bold"
+         android:paddingTop="@dimen/margin_10dp"
+         android:paddingBottom="@dimen/margin_10dp"
+         android:layout_alignParentEnd="true"
+         android:onClick="onLetsClicked"/>
+
+ </RelativeLayout>
+
+</RelativeLayout>

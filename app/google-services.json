@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "939005084939",
+    "project_id": "drugstore-76e09",
+    "storage_bucket": "drugstore-76e09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939005084939:android:584e494513e547e71f8e0e",
+        "android_client_info": {
+          "package_name": "com.quintus.labs.drugstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939005084939-jno5hmrrg01gk11k89cjacjlslddkqnf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.quintus.labs.drugstore",
+            "certificate_hash": "f03b124cac2f68003a6a1412af29fe207bc54be0"
+          }
+        },
+        {
+          "client_id": "939005084939-t897p0npb2mf3stj6oh0kl7bcnd0ll3h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArBGvPthMJINDPCwxwMsIxsBMYTC3NwZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "939005084939-t897p0npb2mf3stj6oh0kl7bcnd0ll3h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

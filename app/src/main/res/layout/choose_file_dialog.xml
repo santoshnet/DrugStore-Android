@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_30dp"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/_10dp"
+    android:paddingBottom="@dimen/_20dp">
+
+    <com.quintus.labs.drugstore.customfonts.TextViewMedium
+        android:id="@+id/profile_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/choose_profile_image"
+        android:textColor="@color/text"
+        android:textSize="@dimen/_18dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:background="#D3DFDFDF" />
+
+    <com.quintus.labs.drugstore.customfonts.TextViewMedium
+        android:id="@+id/take_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/_10dp"
+        android:text="@string/take_photo"
+        android:textSize="@dimen/_18dp"
+        android:textColor="@color/text"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#D8DFDFDF" />
+
+    <com.quintus.labs.drugstore.customfonts.TextViewMedium
+        android:id="@+id/gallery_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/_10dp"
+        android:text="@string/choose_from_gallery"
+        android:textSize="@dimen/_18dp"
+        android:textColor="@color/text"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#D8DFDFDF" />
+
+    <com.quintus.labs.drugstore.customfonts.TextViewMedium
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/_10dp"
+        android:text="@string/cancel"
+        android:textSize="@dimen/_18dp"
+        android:textColor="@color/text"/>
+
+</LinearLayout>
