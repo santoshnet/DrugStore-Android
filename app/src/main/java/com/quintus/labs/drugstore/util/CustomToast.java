@@ -11,8 +11,9 @@ import android.widget.Toast;
 
 import com.quintus.labs.drugstore.R;
 
+
 /**
- * Drug App
+ * Grocery App
  * https://github.com/quintuslabs/GroceryStore
  * Created on 18-Feb-2019.
  * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com

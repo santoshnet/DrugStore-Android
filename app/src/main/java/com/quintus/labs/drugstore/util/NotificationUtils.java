@@ -23,6 +23,7 @@ import android.util.Patterns;
 import androidx.annotation.RequiresApi;
 import androidx.core.app.NotificationCompat;
 
+
 import com.quintus.labs.drugstore.R;
 
 import java.io.IOException;
@@ -118,7 +119,7 @@ public class NotificationUtils {
                 );
 
         final NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(
-                mContext, NOTIFICATION_CHANNEL_ID);
+                mContext);
 
         final Uri alarmSound = Uri.parse(ContentResolver.SCHEME_ANDROID_RESOURCE
                 + "://" + mContext.getPackageName() + "/raw/notification");

@@ -296,10 +296,17 @@ public class ConfirmFragment extends Fragment implements PermissionListener {
 
                 if (ordersResult.getCode() == 200) {
                     localStorage.deleteCart();
-                    uploadDocumentFile(prescription,ordersResult.getOrder_id());
+
+                    if(prescription!=null){
+                        uploadDocumentFile(prescription,ordersResult.getOrder_id());
+
+                    }else{
+                        showCustomDialog();
+                        progressDialog.dismiss();
+                    }
+
                 }
 
-                progressDialog.dismiss();
             }
 
             @Override

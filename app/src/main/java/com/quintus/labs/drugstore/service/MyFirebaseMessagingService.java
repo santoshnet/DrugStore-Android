@@ -1,4 +1,4 @@
-package com.quintus.labs.drugstore.firebase;
+package com.quintus.labs.drugstore.service;
 
 import android.content.Context;
 import android.content.Intent;
@@ -8,7 +8,6 @@ import android.util.Log;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
-
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -22,6 +21,7 @@ import com.quintus.labs.drugstore.activity.MainActivity;
 import com.quintus.labs.drugstore.util.NotificationHelper;
 import com.quintus.labs.drugstore.util.NotificationUtils;
 import com.quintus.labs.drugstore.util.localstorage.LocalStorage;
+
 
 import org.json.JSONException;
 import org.json.JSONObject;
