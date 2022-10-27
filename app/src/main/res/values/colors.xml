@@ -18,7 +18,8 @@
     <color name="divider">#B6B6B6</color>
     <color name="window_background">#FFF5F5F5</color>
     <color name="tint">#4D000000</color>
-
+    <color name="transparent_background">#80000000</color>
+    <color name="open_camera_bg">#1c1c1c</color>
 
     <color name="background_color">#009688</color>
     <color name="white_greyish">#EEEEEE</color>

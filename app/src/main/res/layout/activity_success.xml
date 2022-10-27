@@ -21,7 +21,7 @@
             app:srcCompat="@drawable/animated_check"
             tools:ignore="VectorDrawableCompat" />
 
-        <com.quintus.labs.drugstore.customfonts.TextViewBold
+        <com.frontendsource.drugstore.customfonts.TextViewBold
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="30dp"
@@ -30,7 +30,7 @@
             android:textColor="@color/white"
             android:textSize="20dp" />
 
-        <com.quintus.labs.drugstore.customfonts.TextViewSemiBold
+        <com.frontendsource.drugstore.customfonts.TextViewSemiBold
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"

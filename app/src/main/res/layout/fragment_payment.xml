@@ -39,7 +39,7 @@
                         android:layout_height="20dp"
                         android:background="@drawable/ic_placeholder_select" />
 
-                    <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                    <com.frontendsource.drugstore.customfonts.TextViewRegular
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Adderss"
@@ -59,7 +59,7 @@
                         android:layout_height="20dp"
                         android:background="@drawable/ic_credit_card" />
 
-                    <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                    <com.frontendsource.drugstore.customfonts.TextViewRegular
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Payment"
@@ -80,7 +80,7 @@
                         android:layout_height="20dp"
                         android:background="@drawable/ic_confirm_unselect" />
 
-                    <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                    <com.frontendsource.drugstore.customfonts.TextViewRegular
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Confirm"
@@ -142,7 +142,7 @@
                         android:orientation="vertical">
 
 
-                        <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                        <com.frontendsource.drugstore.customfonts.TextViewRegular
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="16dp"
@@ -150,7 +150,7 @@
                             android:textColor="@color/lightgrey"
                             android:textSize="@dimen/text" />
 
-                        <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                        <com.frontendsource.drugstore.customfonts.TextViewRegular
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Online Payment Not Available"
@@ -169,7 +169,7 @@
                             android:background="@color/lightgrey"></View>
 
 
-                        <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                        <com.frontendsource.drugstore.customfonts.TextViewRegular
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="16dp"
@@ -189,7 +189,7 @@
                             android:padding="13dp">
 
 
-                            <com.quintus.labs.drugstore.customfonts.EditTextRegular
+                            <com.frontendsource.drugstore.customfonts.EditTextRegular
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
@@ -233,7 +233,7 @@
                             android:padding="14dp">
 
 
-                            <com.quintus.labs.drugstore.customfonts.EditTextRegular
+                            <com.frontendsource.drugstore.customfonts.EditTextRegular
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
@@ -272,7 +272,7 @@
                                 android:padding="14dp">
 
 
-                                <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                                <com.frontendsource.drugstore.customfonts.TextViewRegular
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
@@ -281,7 +281,7 @@
                                     android:textColor="@color/lightgrey"
                                     android:textSize="@dimen/sub_text" />
 
-                                <com.quintus.labs.drugstore.customfonts.EditTextRegular
+                                <com.frontendsource.drugstore.customfonts.EditTextRegular
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
@@ -311,7 +311,7 @@
                                 android:padding="14dp">
 
 
-                                <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                                <com.frontendsource.drugstore.customfonts.TextViewRegular
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
@@ -321,7 +321,7 @@
                                     android:textColor="@color/lightgrey"
                                     android:textSize="@dimen/sub_text" />
 
-                                <com.quintus.labs.drugstore.customfonts.EditTextRegular
+                                <com.frontendsource.drugstore.customfonts.EditTextRegular
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
@@ -354,7 +354,7 @@
                             android:padding="14dp">
 
 
-                            <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                            <com.frontendsource.drugstore.customfonts.TextViewRegular
                                 android:id="@+id/total_pay"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"

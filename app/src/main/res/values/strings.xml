@@ -12,7 +12,9 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-
+    <string name="otp_verification">OTP Verification</string>
+    <string name="otp_verification_text">Please verify your email using OTP send to your register email</string>
+    <string name="verify_otp">Verify OTP</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
@@ -45,4 +47,23 @@
     <string name="choose_from_gallery">Choose From Gallery</string>
     <string name="take_photo">Take Photo</string>
     <string name="choose_profile_image">Upload Prescription</string>
+
+    <string name="launch_file_picker">Launch File Picker</string>
+
+    <string name="uri">Uri : %1$s</string>
+    <string name="size">Size :  %1$d</string>
+    <string name="mime">Mime: %1$s</string>
+    <string name="type">Type : %1$d</string>
+    <string name="name">Name : %1$s</string>
+    <string name="bucketname">BucketName : %1$s</string>
+    <string name="launch_audio_picker">Launch audio picker</string>
+    <string name="launch_video_picker">Launch video picker</string>
+    <string name="launch_image_picker">Launch image picker</string>
+
+    <string name="file_thumbnail">File Thumbnail</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="done">Done</string>
+    <string name="selection_count_title">%3$s (%1$d/%2$d)</string>
+    <string name="selection_count">%1$d/%2$d</string>
+    <string name="permission_not_given">Permission not given</string>
 </resources>

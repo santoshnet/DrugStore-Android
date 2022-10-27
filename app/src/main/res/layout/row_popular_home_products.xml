@@ -22,7 +22,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:layout_margin="5dp"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -32,10 +32,10 @@
 
                 <ImageView
                     android:id="@+id/product_image"
-                    android:layout_width="100dp"
+                    android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:layout_centerHorizontal="true"
-                    android:scaleType="fitXY" />
+                    android:scaleType="fitCenter" />
 
                 <ProgressBar
                     android:id="@+id/progressbar"
@@ -46,44 +46,36 @@
             </RelativeLayout>
 
 
-            <com.quintus.labs.drugstore.customfonts.TextViewRegular
+            <com.frontendsource.drugstore.customfonts.TextViewRegular
                 android:id="@+id/product_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
                 android:layout_centerInParent="true"
-                android:layout_margin="5dp"
                 android:gravity="center"
                 android:lines="2"
                 android:maxLines="2"
                 android:text="Food"
                 android:textColor="@color/colorAccent"
                 android:textSize="14dp" />
+            <com.frontendsource.drugstore.customfonts.TextViewRegular
+                android:id="@+id/product_attribute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="1 Bunch"
+                android:textSize="12dp" />
+
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <com.quintus.labs.drugstore.customfonts.TextViewRegular
-                    android:id="@+id/product_attribute"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="5dp"
-                    android:text="1 Bunch"
-                    android:textSize="16dp" />
 
-                <com.quintus.labs.drugstore.customfonts.TextViewRegular
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentEnd="true"
-                    android:layout_alignParentRight="true"
-                    android:layout_centerInParent="true"
-                    android:text="-"
-                    android:textSize="20dp" />
 
-                <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                <com.frontendsource.drugstore.customfonts.TextViewRegular
                     android:id="@+id/product_currency"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -92,9 +84,9 @@
                     android:layout_centerInParent="true"
                     android:layout_marginLeft="5dp"
                     android:text="Rs."
-                    android:textSize="16dp" />
+                    android:textSize="14dp" />
 
-                <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                <com.frontendsource.drugstore.customfonts.TextViewRegular
                     android:id="@+id/product_price"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -103,9 +95,9 @@
                     android:layout_centerInParent="true"
                     android:layout_marginLeft="3dp"
                     android:text="12"
-                    android:textSize="16dp" />
+                    android:textSize="14dp" />
 
-                <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                <com.frontendsource.drugstore.customfonts.TextViewRegular
                     android:id="@+id/original_price"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -115,7 +107,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="@dimen/margin_5dp"
                     android:text=""
-                    android:textSize="16dp" />
+                    android:textSize="14dp" />
 
 
             </LinearLayout>
@@ -124,7 +116,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                <com.frontendsource.drugstore.customfonts.TextViewRegular
                     android:id="@+id/shop_now"
                     style="@android:style/MediaButton"
                     android:layout_width="wrap_content"
@@ -146,7 +138,7 @@
                     android:orientation="horizontal"
                     android:visibility="gone">
 
-                    <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                    <com.frontendsource.drugstore.customfonts.TextViewRegular
                         android:id="@+id/quantity_minus"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -160,7 +152,7 @@
                         android:textSize="20dp"
                         android:textStyle="bold" />
 
-                    <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                    <com.frontendsource.drugstore.customfonts.TextViewRegular
                         android:id="@+id/quantity"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -174,7 +166,7 @@
                         android:textSize="20dp"
                         android:textStyle="bold" />
 
-                    <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                    <com.frontendsource.drugstore.customfonts.TextViewRegular
                         android:id="@+id/quantity_plus"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

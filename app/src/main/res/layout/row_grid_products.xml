@@ -28,7 +28,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                <com.frontendsource.drugstore.customfonts.TextViewRegular
                     android:id="@+id/product_discount"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -80,7 +80,7 @@
                     android:layout_marginTop="10dp"
                     android:orientation="vertical">
 
-                    <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                    <com.frontendsource.drugstore.customfonts.TextViewRegular
                         android:id="@+id/product_title"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -94,7 +94,7 @@
                         android:textStyle="bold" />
 
 
-                    <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                    <com.frontendsource.drugstore.customfonts.TextViewRegular
                         android:id="@+id/product_attribute"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -111,7 +111,7 @@
                         android:layout_gravity="center"
                         android:orientation="horizontal">
 
-                        <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                        <com.frontendsource.drugstore.customfonts.TextViewRegular
                             android:id="@+id/product_currency"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -124,7 +124,7 @@
                             android:textSize="16dp"
                             android:textStyle="bold" />
 
-                        <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                        <com.frontendsource.drugstore.customfonts.TextViewRegular
                             android:id="@+id/product_price"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -137,7 +137,7 @@
                             android:textSize="16dp"
                             android:textStyle="bold" />
 
-                        <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                        <com.frontendsource.drugstore.customfonts.TextViewRegular
                             android:id="@+id/original_price"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -174,7 +174,7 @@
                         android:layout_height="25dp"
                         android:background="@drawable/ic_minus" />
 
-                    <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                    <com.frontendsource.drugstore.customfonts.TextViewRegular
                         android:id="@+id/quantity"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -204,7 +204,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true">
 
-                    <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                    <com.frontendsource.drugstore.customfonts.TextViewRegular
                         android:id="@+id/add_to_cart"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -216,7 +216,7 @@
                         android:text="Add To Cart"
                         android:textSize="14dp" />
 
-                    <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                    <com.frontendsource.drugstore.customfonts.TextViewRegular
                         android:id="@+id/sub_total"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
