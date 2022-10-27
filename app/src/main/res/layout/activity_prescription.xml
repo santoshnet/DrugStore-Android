@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.PrescriptionActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/upload_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_20dp"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:spinnerMode="dialog" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/agendacolor"/>
+
+                <com.frontendsource.drugstore.customfonts.EditTextRegular
+                    android:id="@+id/prescription_remark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10dp"
+                    android:hint="Enter Remark" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:onClick="onSelectImage"
+                    android:layout_marginTop="@dimen/_20dp"
+                    android:layout_marginBottom="@dimen/_20dp"
+                    android:background="@drawable/bg_select_image">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+                           <ImageView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:background="@drawable/ic_menu_camera"/>
+                        <com.frontendsource.drugstore.customfonts.TextViewRegular
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Upload your report/prescription"/>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/image_preview"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/margin_4dp"
+                        android:layout_marginTop="@dimen/margin_4dp"
+                        android:layout_marginEnd="@dimen/margin_4dp"
+                        android:layout_marginBottom="@dimen/margin_4dp"
+                        android:scaleType="centerInside" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="center" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal">
+                    <com.frontendsource.drugstore.customfonts.ButtonSemiBold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cancel"
+                        android:onClick="onCancelClicked"
+                        android:layout_marginRight="@dimen/_10dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_10dp"
+                        />
+                    <com.frontendsource.drugstore.customfonts.ButtonSemiBold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Upload"
+                        android:id="@+id/upload_btn"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_10dp"
+                        android:background="@drawable/shop_button_bg"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+             <androidx.recyclerview.widget.RecyclerView
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:id="@+id/recycler_view"
+                 android:nestedScrollingEnabled="true"/>
+        </FrameLayout>
+    </LinearLayout>
+
+    </ScrollView>
+    <Button
+        android:layout_width="@dimen/_30dp"
+        android:layout_height="@dimen/_30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="onAddPrescription"
+        android:layout_margin="@dimen/margin_15dp"
+        android:background="@drawable/ic_baseline_add_circle_24"/>
+</RelativeLayout>
