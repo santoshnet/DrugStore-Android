@@ -28,15 +28,15 @@ public class User {
     public User() {
     }
 
-    public User(String name, String mobile, String password, String firebase_token) {
+    public User(String name, String email, String password, String firebase_token) {
         this.name = name;
-        this.mobile = mobile;
+        this.email = email;
         this.password = password;
         this.firebase_token = firebase_token;
     }
 
-    public User(String mobile, String password, String firebase_token) {
-        this.mobile = mobile;
+    public User(String email, String password, String firebase_token) {
+        this.email = email;
         this.password = password;
         this.firebase_token = firebase_token;
     }

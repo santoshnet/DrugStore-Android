@@ -76,7 +76,7 @@ public class SignUpFragment extends Fragment implements OnClickListener {
         fullName = view.findViewById(R.id.fullName);
         progress = view.findViewById(R.id.progress_bar);
 //        emailId = view.findViewById(R.id.userEmailId);
-        mobileNumber = view.findViewById(R.id.mobileNumber);
+        mobileNumber = view.findViewById(R.id.email);
 
         password = view.findViewById(R.id.password);
 
@@ -134,7 +134,7 @@ public class SignUpFragment extends Fragment implements OnClickListener {
             fullName.setError("Eneter Your Name");
             fullName.requestFocus();
         } else if (getMobileNumber.length() == 0) {
-            mobileNumber.setError("Eneter Your Mobile Number");
+            mobileNumber.setError("Eneter Your Email");
             mobileNumber.requestFocus();
         } else if (getPassword.length() == 0) {
             password.setError("Eneter Password");
@@ -168,7 +168,7 @@ public class SignUpFragment extends Fragment implements OnClickListener {
                         localStorage.createUserLoginSession(userString);
                         Toast.makeText(getContext(), userResult.getMessage(), Toast.LENGTH_LONG).show();
 
-                        startActivity(new Intent(getContext(), OTPActivity.class));
+                        startActivity(new Intent(getContext(), MainActivity.class));
                         getActivity().finish();
                     } else {
                         new CustomToast().Show_Toast(getActivity(), view,

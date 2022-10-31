@@ -185,10 +185,10 @@ public class ForgotPasswordFragment extends Fragment implements
         if (getMobile.equals("") || getMobile.length() == 0 || getMobile.length() < 10) {
 
             new CustomToast().Show_Toast(getActivity(), view,
-                    "Please enter your Mobile Number");
+                    "Please enter your Email ID");
         } else {
             user = new User();
-            user.setMobile(getMobile);
+            user.setEmail(getMobile);
             forgotPassword();
         }
     }
@@ -203,7 +203,7 @@ public class ForgotPasswordFragment extends Fragment implements
                 if (response != null) {
                     UserResult userResult = response.body();
                     if (userResult != null && userResult.getStatus() == 200) {
-                        Toast.makeText(getContext(),"OTP sent to your registerd mobile number : "+user.getMobile(),Toast.LENGTH_LONG).show();
+                        Toast.makeText(getContext(),"OTP sent to your registerd Email Address : "+user.getMobile(),Toast.LENGTH_LONG).show();
                         reset_password_FL.setVisibility(View.VISIBLE);
                         forgot_password_FL.setVisibility(View.GONE);
                     } else {
