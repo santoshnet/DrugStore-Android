@@ -3,13 +3,9 @@ package com.frontendsource.drugstore.model;
 public class OrderItem {
     String id;
     String orderid;
-    String itemname;
-    String itemquantity;
     String attribute;
     String currency;
     String itemImage;
-    String itemprice;
-    String itemtotal;
     String token;
     String order_id;
     String itemName;
@@ -20,14 +16,14 @@ public class OrderItem {
     public OrderItem() {
     }
 
-    public OrderItem(String itemname, String itemquantity, String attribute, String currency, String itemImage, String itemprice, String itemtotal) {
-        this.itemname = itemname;
-        this.itemquantity = itemquantity;
+    public OrderItem(String itemName, String itemQuantity, String attribute, String currency, String itemImage, String itemPrice, String itemTotal) {
+        this.itemName = itemName;
+        this.itemQuantity = itemQuantity;
         this.attribute = attribute;
         this.currency = currency;
         this.itemImage = itemImage;
-        this.itemprice = itemprice;
-        this.itemtotal = itemtotal;
+        this.itemPrice = itemPrice;
+        this.itemTotal = itemTotal;
     }
 
     public String getId() {
@@ -46,21 +42,7 @@ public class OrderItem {
         this.orderid = orderid;
     }
 
-    public String getItemname() {
-        return itemname;
-    }
 
-    public void setItemname(String itemname) {
-        this.itemname = itemname;
-    }
-
-    public String getItemquantity() {
-        return itemquantity;
-    }
-
-    public void setItemquantity(String itemquantity) {
-        this.itemquantity = itemquantity;
-    }
 
     public String getAttribute() {
         return attribute;
@@ -82,25 +64,6 @@ public class OrderItem {
         return itemImage;
     }
 
-    public void setitemImage(String itemImage) {
-        this.itemImage = itemImage;
-    }
-
-    public String getItemprice() {
-        return itemprice;
-    }
-
-    public void setItemprice(String itemprice) {
-        this.itemprice = itemprice;
-    }
-
-    public String getItemtotal() {
-        return itemtotal;
-    }
-
-    public void setItemtotal(String itemtotal) {
-        this.itemtotal = itemtotal;
-    }
 
     public String getItemImage() {
         return itemImage;
