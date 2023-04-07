@@ -29,7 +29,7 @@
         android:paddingTop="30dp"
         android:layout_margin="30dp"
         android:layout_weight="6">
-        <com.quintus.labs.drugstore.customfonts.TextViewBold
+        <com.frontendsource.drugstore.customfonts.TextViewBold
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20dp"
@@ -37,7 +37,7 @@
             android:id="@+id/title"
             android:textColor="@color/black"
             android:gravity="center"/>
-        <com.quintus.labs.drugstore.customfonts.TextViewRegular
+        <com.frontendsource.drugstore.customfonts.TextViewRegular
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="16dp"

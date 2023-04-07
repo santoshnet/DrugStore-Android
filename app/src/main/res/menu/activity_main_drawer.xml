@@ -51,6 +51,14 @@
             android:icon="@drawable/ic_shopping_cart_black_24dp"
             android:title="My Cart" />
     </group>
+    <group
+        android:id="@+id/nav_communication_group4"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_prescription"
+            android:icon="@drawable/ic_baseline_photo_library_24"
+            android:title="My Prescription" />
+    </group>
 
 
 </menu>

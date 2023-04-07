@@ -46,12 +46,12 @@
                     android:layout_margin="10dp"
                     android:orientation="horizontal">
 
-                    <com.quintus.labs.drugstore.customfonts.TextViewBold
+                    <com.frontendsource.drugstore.customfonts.TextViewBold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Name :" />
 
-                    <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                    <com.frontendsource.drugstore.customfonts.TextViewRegular
                         android:id="@+id/name"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -70,12 +70,12 @@
                     android:layout_margin="10dp"
                     android:orientation="horizontal">
 
-                    <com.quintus.labs.drugstore.customfonts.TextViewBold
+                    <com.frontendsource.drugstore.customfonts.TextViewBold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Email :" />
 
-                    <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                    <com.frontendsource.drugstore.customfonts.TextViewRegular
                         android:id="@+id/email"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -94,12 +94,12 @@
                     android:layout_margin="10dp"
                     android:orientation="horizontal">
 
-                    <com.quintus.labs.drugstore.customfonts.TextViewBold
+                    <com.frontendsource.drugstore.customfonts.TextViewBold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Mobile :" />
 
-                    <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                    <com.frontendsource.drugstore.customfonts.TextViewRegular
                         android:id="@+id/mobile"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -118,12 +118,12 @@
                     android:layout_margin="10dp"
                     android:orientation="horizontal">
 
-                    <com.quintus.labs.drugstore.customfonts.TextViewBold
+                    <com.frontendsource.drugstore.customfonts.TextViewBold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Address :" />
 
-                    <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                    <com.frontendsource.drugstore.customfonts.TextViewRegular
                         android:id="@+id/address"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

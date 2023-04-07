@@ -8,7 +8,7 @@
     android:paddingTop="@dimen/_10dp"
     android:paddingBottom="@dimen/_20dp">
 
-    <com.quintus.labs.drugstore.customfonts.TextViewMedium
+    <com.frontendsource.drugstore.customfonts.TextViewMedium
         android:id="@+id/profile_selector"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,7 +23,7 @@
         android:layout_marginTop="@dimen/_10dp"
         android:background="#D3DFDFDF" />
 
-    <com.quintus.labs.drugstore.customfonts.TextViewMedium
+    <com.frontendsource.drugstore.customfonts.TextViewMedium
         android:id="@+id/take_photo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -38,7 +38,7 @@
         android:layout_height="1dp"
         android:background="#D8DFDFDF" />
 
-    <com.quintus.labs.drugstore.customfonts.TextViewMedium
+    <com.frontendsource.drugstore.customfonts.TextViewMedium
         android:id="@+id/gallery_photo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -53,7 +53,7 @@
         android:layout_height="1dp"
         android:background="#D8DFDFDF" />
 
-    <com.quintus.labs.drugstore.customfonts.TextViewMedium
+    <com.frontendsource.drugstore.customfonts.TextViewMedium
         android:id="@+id/cancel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
