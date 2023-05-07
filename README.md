@@ -15,6 +15,16 @@ With this app, customers can order medicines from the pharmacy it is connected t
 The pharmacy has to host the companion administration web-app [Drugstore Web](https://drugstore.frontendsourcecode.com/).
 
 
+## Admin Details
+
+[Admin Panel](https://drugstore.frontendsourcecode.com/)
+
+UserName: Admin
+
+Password: Admin@2020
+
+OTP For Android Verification: 000000
+
 ## Features
 The android app lets you:
 - Authenticate via phone and password.
@@ -28,6 +38,8 @@ The android app lets you:
 - Block specific users from ordering.
 - Multiple order statuses.
 - Push notification to notifiy order status change.
+
+
 
 ## Screenshots
 
