@@ -30,7 +30,7 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="170dp">
+                    android:layout_height="130dp">
 
                     <androidx.viewpager.widget.ViewPager
                         android:id="@+id/viewPager"
@@ -91,7 +91,7 @@
                     <androidx.viewpager.widget.ViewPager
                         android:id="@+id/promotion_viewPager"
                         android:layout_width="match_parent"
-                        android:layout_height="130dp"
+                        android:layout_height="190dp"
                         android:layout_marginTop="@dimen/_20dp"
                         android:layout_marginBottom="@dimen/margin_20dp"
                         android:visibility="gone" />
