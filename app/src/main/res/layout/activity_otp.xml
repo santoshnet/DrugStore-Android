@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.OTPActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="@dimen/margin_20dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/logo" />
+
+                <com.frontendsource.drugstore.customfonts.TextViewBold
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:text="@string/otp_verification"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <com.frontendsource.drugstore.customfonts.TextViewBold
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:baselineAligned="false"
+                    android:gravity="left"
+                    android:id="@+id/email_verify_text"
+                    android:text="@string/otp_verification_text"
+                    android:textColor="@color/textSub"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <com.frontendsource.drugstore.helper.PinEntryEditText
+                    android:id="@+id/txt_pin_entry"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:background="@null"
+                    android:cursorVisible="false"
+                    android:digits="1234567890"
+                    android:inputType="number"
+                    android:maxLength="6"
+                    android:textIsSelectable="false"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    app:pinBackgroundIsSquare="true"
+                    app:pinLineColors="@color/colorPrimaryDark"
+                    app:pinLineStroke="2dp"
+                    app:pinLineStrokeSelected="4dp" />
+
+                <Button
+                    android:id="@+id/loginBtn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/loginbutton_selector"
+                    android:padding="3dp"
+                    android:text="@string/verify_otp"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:onClick="onVerifyOTPClicked"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/margin_20dp"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/resend_otp_ll"
+                    android:layout_marginTop="30dp">
+
+                    <com.frontendsource.drugstore.customfonts.TextViewSemiBold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Have n't Received OTP?"
+                        android:textSize="16dp"/>
+
+                    <com.frontendsource.drugstore.customfonts.TextViewSemiBold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Resend OTP"
+                        android:layout_marginLeft="@dimen/margin_5dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:onClick="onResendClicked"
+                        android:textSize="16dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/margin_20dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center_horizontal"
+                    android:visibility="gone"
+                    android:id="@+id/timer_ll">
+
+                    <com.frontendsource.drugstore.customfonts.TextViewSemiBold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Please Wait "
+                        android:textSize="16dp"/>
+
+                    <com.frontendsource.drugstore.customfonts.TextViewSemiBold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="30"
+                        android:id="@+id/timer"
+                        android:layout_marginLeft="@dimen/margin_5dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:onClick="onResendClicked"
+                        android:textSize="16dp"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+        <include
+            android:id="@+id/progress_bar"
+            layout="@layout/progressbar"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

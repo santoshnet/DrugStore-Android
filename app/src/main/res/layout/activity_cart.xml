@@ -57,7 +57,7 @@
                 android:gravity="center"
                 android:orientation="horizontal">
 
-                <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                <com.frontendsource.drugstore.customfonts.TextViewRegular
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Total : "
@@ -66,7 +66,7 @@
                     android:textStyle="bold"
                     android:visibility="gone" />
 
-                <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                <com.frontendsource.drugstore.customfonts.TextViewRegular
                     android:id="@+id/total_price"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -86,7 +86,7 @@
                 android:onClick="onCheckoutClicked"
                 android:orientation="horizontal">
 
-                <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                <com.frontendsource.drugstore.customfonts.TextViewRegular
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Checkout "

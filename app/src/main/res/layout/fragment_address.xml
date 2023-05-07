@@ -39,7 +39,7 @@
                         android:layout_height="20dp"
                         android:background="@drawable/ic_placeholder" />
 
-                    <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                    <com.frontendsource.drugstore.customfonts.TextViewRegular
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Adderss"
@@ -59,7 +59,7 @@
                         android:layout_height="20dp"
                         android:background="@drawable/ic_credit_card_unselect" />
 
-                    <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                    <com.frontendsource.drugstore.customfonts.TextViewRegular
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Payment"
@@ -79,7 +79,7 @@
                         android:layout_height="20dp"
                         android:background="@drawable/ic_confirm_unselect" />
 
-                    <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                    <com.frontendsource.drugstore.customfonts.TextViewRegular
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Confirm"
@@ -111,7 +111,7 @@
                         android:layout_marginTop="10dp"
                         android:orientation="vertical">
 
-                        <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                        <com.frontendsource.drugstore.customfonts.TextViewRegular
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
@@ -146,7 +146,7 @@
                         android:layout_marginTop="10dp"
                         android:orientation="vertical">
 
-                        <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                        <com.frontendsource.drugstore.customfonts.TextViewRegular
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
@@ -181,7 +181,7 @@
                         android:layout_marginTop="10dp"
                         android:orientation="vertical">
 
-                        <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                        <com.frontendsource.drugstore.customfonts.TextViewRegular
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
@@ -217,7 +217,7 @@
                         android:layout_marginTop="10dp"
                         android:orientation="vertical">
 
-                        <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                        <com.frontendsource.drugstore.customfonts.TextViewRegular
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
@@ -264,7 +264,7 @@
                                 android:layout_weight="1"
                                 android:orientation="vertical">
 
-                                <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                                <com.frontendsource.drugstore.customfonts.TextViewRegular
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="15dp"
@@ -296,7 +296,7 @@
                                 android:layout_weight="1"
                                 android:orientation="vertical">
 
-                                <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                                <com.frontendsource.drugstore.customfonts.TextViewRegular
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="15dp"
@@ -340,7 +340,7 @@
                             android:layout_marginTop="10dp"
                             android:orientation="vertical">
 
-                            <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                            <com.frontendsource.drugstore.customfonts.TextViewRegular
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="15dp"
@@ -374,7 +374,7 @@
                             android:background="@color/secondary_text" />
                     </LinearLayout>
 
-                    <com.quintus.labs.drugstore.customfonts.TextViewRegular
+                    <com.frontendsource.drugstore.customfonts.TextViewRegular
                         android:id="@+id/txt_pyment"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
