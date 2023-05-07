@@ -1,5 +1,7 @@
 # DrugStore
 
+<img src="screen/drugstore.png"/>
+
 DrugStore - Android app is the client side app for ordering medicines.  
 It is free and open source.  
 DrugStore for Android is a companion app for [Drugstore Web](https://drugstore.frontendsourcecode.com/).  
